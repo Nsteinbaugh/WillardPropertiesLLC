@@ -1,0 +1,57 @@
+﻿// Configure bundling and minification for the project.
+// More info at https://go.microsoft.com/fwlink/?LinkId=808241
+[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/css/style.css",
+      "wwwroot/css/settings.css",
+      "wwwroot/css/settings-ie8.css",
+      "wwwroot/css/cozy-real-estate-font.css",
+      "wwwroot/css/font-awesome.css",
+      "wwwroot/css/owl.transitions.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/common/jquery.js",
+    "inputFiles": [
+      "wwwroot/scripts/common/jquery-{version}.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/jqueryval.js",
+    "inputFiles": [
+      "wwwroot/scripts/jqBootstrapValidation.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/modernizr.js",
+    "inputFiles": [
+      "wwwroot/scripts/modernizr-*"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/scripts/site.min.js",
+    "inputFiles": [
+      "wwwroot/scripts/scripts.js",
+      "wwwroot/scripts/common.js",
+      "wwwroot/scripts/jquery.themepunch.plugins.min.js",
+      "wwwroot/scripts/jquery.themepunch.revolution.min.js",
+      "wwwroot/scripts/jquery.themepunch.tools.min.js",
+      "wwwroot/scripts/variables.js",
+      "wwwroot/scripts/jquery.prettyPhoto.js",
+      "wwwroot/scripts/owl.carousel.min.js",
+      "wwwroot/scripts/chosen.jquery.min.js",
+      "wwwroot/scripts/infobox.min.js",
+      "wwwroot/scripts/agencies.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  }
+]

@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+	<meta name="keywords" content="real estate, responsive, retina ready, modern html5 template, bootstrap, css3" />
+	<meta name="description" content="Willard Properties provides family oriented housing in Willard Missouri" />
+	<meta name="author" content="Willard Properties" />
+	
+	<!-- Mobile Meta Tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- Fav and touch icons -->
+	<link rel="shortcut icon" type="image/x-icon" href="~/assets/Images/fav_touch_icons/favicon.ico" />
+	<link rel="apple-touch-icon" href="~/assets/Images/fav_touch_icons/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="~/assets/Images/fav_touch_icons/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="~/assets/Images/fav_touch_icons/apple-touch-icon-114x114.png" />
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>@ViewBag.Title</title>
+
+    <!-- Google Web Font -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway:300,500,900%7COpen+Sans:400,700,400italic" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="~/content/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Revolution Slider CSS settings -->
+    <link rel="stylesheet" type="text/css" href="~/content/settings.css" media="screen" />
+
+    <!-- Template CSS -->
+    <link href="~/content/style.css" rel="stylesheet" />
+
+    <!-- Modernizr -->
+    <script src="~/scripts/modernizr-2.8.1.min.js"></script>
+
+    
+    @*<environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-theme.css" />
+        <link rel="stylesheet" href="~/css/style.css" />
+        <link rel="stylesheet" href="~/css/settings.css"  />
+        <link rel="stylesheet" href="~/css/settings-ie8.css" />
+        <link rel="stylesheet" href="~/css/cozy-real-estate-font.css" />
+        <link rel="stylesheet" href="~/css/font-awesome.css" />
+        <link rel="stylesheet" href="~/css/owl.transitions.css" />
+        <script src="~/scripts/modernizr-2.8.1.min.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="~/css/site.min.css"  />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"  />
+
+        <!-- Custom styles for this template -->
+        <script src="~/scripts/modernizr.js" ></script>
+    </environment>*@
+
+  </head>
+  <body>
+      <header id="header">
+          <div id="top-bar">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <ul id="top-info">
+                              <li>Phone: 417-880-7096</li>
+                              <li>Email: <a href="mailto:willardmopropertiesllc@gmail.com">willardmopropertiesllc@gmail.com</a></li>
+                          </ul>
+
+                          <ul id="top-buttons">
+                              @*<li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
+                              <li><a href="#"><i class="fa fa-pencil-square-o"></i> Register</a></li>*@
+                              <li class="divider"></li>
+                              <li>
+                                  <div class="language-switcher">
+                                      <span><i class="fa fa-globe"></i> English</span>
+                                      <ul>
+                                          <li><a href="#">Deutsch</a></li>
+                                          <li><a href="#">Espa&ntilde;ol</a></li>
+                                          <li><a href="#">Fran&ccedil;ais</a></li>
+                                          <li><a href="#">Portugu&ecirc;s</a></li>
+                                      </ul>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div id="nav-section">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-12">
+                          <a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/index.html" class="nav-logo"><img src="~/Assets/Images/WMPLLC.png" alt="Cozy Logo" /></a>
+
+                          <!-- BEGIN SEARCH -->
+                          <div id="sb-search" class="sb-search">
+                              <form>
+                                  <input class="sb-search-input" placeholder="Search..." type="text" value="" name="search" id="search">
+                                  <input class="sb-search-submit" type="submit" value="">
+                                  <i class="fa fa-search sb-icon-search"></i>
+                              </form>
+                          </div>
+                          <!-- END SEARCH -->
+                          <!-- BEGIN MAIN MENU -->
+                          <nav class="navbar">
+                              <button id="nav-mobile-btn"><i class="fa fa-bars"></i></button>
+
+                              <ul class="nav navbar-nav">
+                                  <li><a href="/">Home</a></li>
+
+                                  <li class="dropdown">
+                                      <a href="#" data-toggle="dropdown" data-hover="dropdown">Properties<b class="caret"></b></a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/properties-detail.html">Properties Detail</a></li>
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/properties-list.html">Properties List</a></li>
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/properties-grid.html">Properties Grid</a></li>
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/properties-grid2.html">Properties Grid 2</a></li>
+                                      </ul>
+                                  </li>
+
+                                  <li class="dropdown">
+                                      <a href="#" data-toggle="dropdown" data-hover="dropdown">Pages<b class="caret"></b></a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/about.html">About Us</a></li>
+                                          <li class="dropdown-submenu">
+                                              <a href="#">Agency</a>
+                                              <ul class="dropdown-menu">
+                                                  <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/agency-detail.html">Agency Detail</a></li>
+                                                  <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/agency-listing.html">Agency Listing</a></li>
+                                              </ul>
+                                          </li>
+                                          <li class="dropdown-submenu">
+                                              <a href="#">Agent</a>
+                                              <ul class="dropdown-menu">
+                                                  <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/agent-detail.html">Agent Detail</a></li>
+                                                  <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/agent-listing.html">Agent Listing</a></li>
+                                              </ul>
+                                          </li>
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/pricing-tables.html">Pricing Tables</a></li>
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/login.html">Login</a></li>
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/register.html">Register</a></li>
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/faq.html">FAQ</a></li>
+                                          <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/404.html">404</a></li>
+
+                                          <li class="divider"></li>
+                                          <li><a tabindex="-1" href="#"> Separated link </a></li>
+                                      </ul>
+                                  </li>
+                                  <li><a href="../../../../Downloads/Cozy_v1.4/Cozy HTML5 Template/contacts.html">Contacts</a></li>
+                              </ul>
+
+                          </nav>
+                          <!-- END MAIN MENU -->
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <!-- END HEADER -->
+
+      <div class="body-content">
+          @RenderBody()
+          @Html.Partial("_Footer")
+      </div>
+      @*<environment include="Development">
+          <script src="~/lib/jquery/dist/jquery.js" ></script>
+          <script src="~/lib/bootstrap/dist/js/bootstrap.js" ></script>
+          <script src="~/scripts/scripts.js" ></script>
+          <script src="~/scripts/common.js" ></script>
+          <script src="~/scripts/variables.js" ></script>
+          <script src="~/scripts/jquery.prettyPhoto.js" ></script>
+          <script src="~/scripts/owl.carousel.min.js" ></script>
+          <script src="~/scripts/infobox.min.js" ></script>
+          <script src="~/scripts/agencies.js" ></script>
+          <script src="~/scripts/jquery.themepunch.plugins.min.js" ></script>
+          <script src="~/scripts/jquery.themepunch.revolution.min.js" ></script>
+          <script src="~/scripts/chosen.jquery.min.js" ></script>
+          <script src="~/scripts/jquery.themepunch.tools.min.js" ></script>
+          <script src="~/scripts/jqBootstrapValidation.js" ></script>
+          <script src="~/scripts/common/bootstrap-hover-dropdown.min.js" ></script>
+
+
+      </environment>
+      <environment exclude="Development">
+           Bootstrap core JavaScript 
+          <script src="~/scripts/common/jquery.js" asp-append-version="true"></script>
+          <script src="~/scripts/site.min.js" asp-append-version="true"></script>
+      </environment>*@
+
+      <!-- Libs -->
+      <script src="~/scripts/common.js"></script>
+      <script src="~/scripts/owl.carousel.min.js"></script>
+      <script src="~/scripts/chosen.jquery.min.js"></script>
+      <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+      <script src="~/scripts/infobox.min.js"></script>
+
+      <!-- jQuery Revolution Slider -->
+      <script type="text/javascript" src="~/scripts/jquery.themepunch.tools.min.js"></script>
+      <script type="text/javascript" src="~/scripts/jquery.themepunch.revolution.min.js"></script>
+
+      <!-- Template Scripts -->
+      <script src="~/scripts/variables.js"></script>
+      <script src="~/scripts/scripts.js"></script>
+
+      <!-- Agencies list -->
+      <script src="~/scripts/agencies.js"></script>
+
+      @RenderSection("scripts", required: false)
+  </body>
+</html>
