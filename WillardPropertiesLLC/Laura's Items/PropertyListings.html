@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	
+	<!-- Page Title -->
+	<title>Property Listings</title>
+	
+	<meta name="keywords" content="real estate, responsive, retina ready, modern html5 template, bootstrap, css3" />
+	<meta name="description" content="Cozy - Responsive Real Estate HTML5 Template" />
+	<meta name="author" content="Wisely Themes - www.wiselythemes.com" />
+	
+	<!-- Mobile Meta Tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- Fav and touch icons -->
+	<link rel="shortcut icon" type="image/x-icon" href="WMP-Favicon16x16px.png" />
+	<link rel="apple-touch-icon" href="WMP_Favicon57x57px.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="WMP_Favicon72x72px.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="WMP_Favicon114x114px.png" />
+	
+	<!-- IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+	<![endif]-->
+	
+	<!-- Google Web Font -->
+	<link href="http://fonts.googleapis.com/css?family=Raleway:300,500,900%7COpen+Sans:400,700,400italic" rel="stylesheet" type="text/css" />
+	
+	<!-- Bootstrap CSS -->
+	<link href="WMP HTML5 Template/css/bootstrap.min.css" rel="stylesheet" />
+	
+	<!-- Template CSS -->
+	<link href="WMP HTML5 Template/css/style.css" rel="stylesheet" />
+	
+	<!-- Modernizr -->
+	<script src="WMP HTML5 Template/js/modernizr-2.8.1.min.js"></script>
+</head>
+<body>
+	<!-- BEGIN WRAPPER -->
+	<div id="wrapper">
+	
+		<!-- BEGIN HEADER -->
+			<div id="nav-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="WMPLLCHome.html" class="nav-logo"><img src="WMPLLC.png" alt="WMP Logo" /></a>
+							
+							<!-- BEGIN SEARCH -->
+							<div id="sb-search" class="sb-search">
+								<form>
+									<input class="sb-search-input" placeholder="Search..." type="text" value="" name="search" id="search">
+									<input class="sb-search-submit" type="submit" value="">
+									<i class="fa fa-search sb-icon-search"></i>
+								</form>
+							</div>
+							<!-- END SEARCH -->
+							
+							<!-- BEGIN MAIN MENU -->
+							<nav class="navbar">
+								<button id="nav-mobile-btn"><i class="fa fa-bars"></i></button>
+								
+								<ul class="nav navbar-nav">
+									<li class="dropdown">
+										<a href="WMPLLCHome.html" data-toggle="dropdown" data-hover="dropdown">Home</a>
+										<ul class="dropdown-menu">
+										</ul>
+									</li>
+									
+									<li class="dropdown">
+										<a class="active" href="PropertyListings.html" data-toggle="dropdown" data-hover="dropdown">Properties</a>
+										<ul class="dropdown-menu">
+										</ul>
+									</li>
+									
+									<li class="dropdown">
+										<a href="faq.html" data-toggle="dropdown" data-hover="dropdown">FAQs</a>
+							
+									<li class="dropdown">
+										<a class="active" href="about.html" data-toggle="dropdown" data-hover="dropdown">About Us</a>
+										<ul class="dropdown-menu">
+										</ul>
+									</li>
+									
+									<li><a href="contact.html">Contact</a></li>
+									</li></ul>
+									
+								
+							
+							</nav>
+							<!-- END MAIN MENU -->
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- END HEADER -->
+		
+		
+		<!-- BEGIN PAGE TITLE -->
+		<div class="parallax colored-bg pattern-bg" data-stellar-background-ratio="0.5">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="page-title">Property Listings</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END PAGE TITLE -->
+		
+		
+		<!-- BEGIN HOME ADVANCED SEARCH (class="gray" for a gray background) -->
+		<div id="advanced-search" class="gray open">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<form>
+							<div class="form-group">
+								<div class="form-control-large">
+									<input type="text" class="form-control" name="location" placeholder="City, State, Country, etc...">
+								</div>
+								
+								<div class="form-control-large">
+									<select id="search_prop_type" name="search_prop_type" data-placeholder="Type of Property">
+										<option value=""> </option>
+										<option value="residential">Residential</option>
+										<option value="duplex">Duplex</option>
+									</select>
+								</div>
+								
+								<div class="form-control-small">
+									<select id="search_status" name="search_status" data-placeholder="Status">
+										<option value=""> </option>
+										<option value="rent">For Rent</option>
+									</select>
+								</div>
+								
+								<div class="form-control-small">
+									<select id="search_bedrooms" name="search_bedrooms" data-placeholder="Bedrooms">
+										<option value=""> </option>
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+									</select>
+								</div>
+								
+								<div class="form-control-small">
+									<select id="search_bathrooms" name="search_bathrooms" data-placeholder="Bathrooms">
+										<option value=""> </option>
+										<option value="0">0</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+									</select>
+								</div>
+								
+								<div class="form-control-small">
+									<select id="search_minprice" name="search_minprice" data-placeholder="Min. Price">
+										<option value=""> </option>
+										<option value="0">$0</option>
+										<option value="500">$500</option>
+										<option value="1,000">$1,000</option>
+										<option value="1,500">$1,500</option>
+										<option value="2,000">$2,000</option>
+									</select>
+								</div>
+								
+								<div class="form-control-small">
+									<select id="search_maxprice" name="search_maxprice" data-placeholder="Max. Price">
+										<option value=""> </option>
+										<option value="500">$500</option>
+										<option value="1,000">$1,000</option>
+										<option value="1,500">$1,500</option>
+										<option value="2,000">$2,000</option>
+									</select>
+								</div>
+								
+								<button type="submit" class="btn btn-fullcolor">Search</button>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END HOME ADVANCED SEARCH -->
+	
+		<!-- BEGIN CONTENT WRAPPER -->
+		<div class="content">
+			<div class="container">
+				<div class="row">
+				
+					<!-- BEGIN MAIN CONTENT -->
+					<div class="main col-sm-12">
+							
+						<select class="chosen-select" tabindex="-1" multiple="" data-placeholder="Searched Parameters">
+							<option value=""> </option>
+							<option selected value="Residential">Residential</option>
+							<option selected value="rent">Rent</option>
+							<option selected value="3 bedrooms">3 bedrooms</option>
+							<option selected value="2 bathrooms">2 bathrooms</option>
+						</select>			
+							
+						<!-- BEGIN PROPERTY LISTING -->
+						<div id="property-listing" class="grid-style1 clearfix">
+							<div class="row">
+								<div class="item col-sm-4"><!-- Set width to 4 columns for grid view mode only -->
+									<div class="image">
+										<a href="7030WestDogwood.html">
+											<h3>7030 West Dogwood Street</h3>
+											<span class="location">Springfield, Missouri 65803</span>
+										</a>
+										<img src="7030WestDogwoodStreet.jpg" alt="" />
+									</div>
+									<div class="price">
+										<i class="fa fa-home"></i>For Rent
+										<span>$800</span>
+									</div>
+									<ul class="amenities">
+										<li><i class="icon-area"></i> 1250 Sq Ft</li>
+										<li><i class="icon-bedrooms"></i> 3</li>
+										<li><i class="icon-bathrooms"></i> 2</li>
+									</ul>
+								</div>
+								
+								<div class="item col-sm-4"><!-- Set width to 4 columns for grid view mode only -->
+									<div class="image">
+										<a href="WestFarmRoad106UnitA.html">
+											<h3>West Farm Road 106 Unit A</h3>
+											<span class="location">Springfield, Missouri 65803</span>
+										</a>
+										<img src="WestFarmRoad106UnitA.jpg" alt="" />
+									</div>
+									<div class="price">
+										<i class="fa fa-home"></i>For Rent
+										<span>$500</span>
+									</div>
+									<ul class="amenities">
+										<li><i class="icon-area"></i> 950 Sq Ft</li>
+										<li><i class="icon-bedrooms"></i> 2</li>
+										<li><i class="icon-bathrooms"></i> 1</li>
+									</ul>
+								</div>
+								
+								<div class="item col-sm-4"><!-- Set width to 4 columns for grid view mode only -->
+									<div class="image">
+										<a href="WestFarmRoad106UnitB.html">
+											<h3>West Farm Road 106 Unit B</h3>
+											<span class="location">Springfield, Missouri 65803</span>
+										</a>
+										<img src="WestFarmRoad106UnitB.jpg" alt="" />
+									</div>
+									<div class="price">
+										<i class="fa fa-home"></i>For Rent
+										<span>$650</span>
+									</div>
+									<ul class="amenities">
+										<li><i class="icon-area"></i> 950 Sq Ft</li>
+										<li><i class="icon-bedrooms"></i> 3</li>
+										<li><i class="icon-bathrooms"></i> 1</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="item col-sm-4"><!-- Set width to 4 columns for grid view mode only -->
+									<div class="image">
+										<a href="3274NStateHwyABUnitA.html">
+											<h3>3274 North State Highway AB Unit A </h3>
+											<span class="location">Springfield, Missouri 65803</span>
+										</a>
+										<img src="3274NorthStateHighwayABunita.jpg" alt="" />
+									</div>
+									<div class="price">
+										<i class="fa fa-home"></i>For Rent
+										<span>$500</span>
+									</div>
+									<ul class="amenities">
+										<li><i class="icon-area"></i> 950 Sq Ft</li>
+										<li><i class="icon-bedrooms"></i> 2</li>
+										<li><i class="icon-bathrooms"></i> 1</li>
+									</ul>
+								</div>
+								
+								<div class="item col-sm-4"><!-- Set width to 4 columns for grid view mode only -->
+									<div class="image">
+										<a href="3274NStateHwyABUnitB.html">
+											<h3>3274 North State Highway AB Unit B</h3>
+											<span class="location">Springfield, Missouri 65803</span>
+										</a>
+										<img src="3274NStateHighwayABunitb.jpg" alt="" />
+									</div>
+									<div class="price">
+										<i class="fa fa-home"></i>For Rent
+										<span>$500</span>
+									</div>
+									<ul class="amenities">
+										<li><i class="icon-area"></i> 950 Sq Ft</li>
+										<li><i class="icon-bedrooms"></i> 2</li>
+										<li><i class="icon-bathrooms"></i> 1</li>
+									</ul>
+								</div>
+								
+								<div class="item col-sm-4"><!-- Set width to 4 columns for grid view mode only -->
+									<div class="image">
+										<a href="200NewMelvilleRoad.html">
+											<h3>200 New Melville Road</h3>
+											<span class="location">Willard, Missouri 65781</span>
+										</a>
+										<img src="200NewMelvilleRoad.jpg" alt="" />
+									</div>
+									<div class="price">
+										<i class="fa fa-home"></i>For Rent
+										<span>$800</span>
+									</div>
+									<ul class="amenities">
+										<li><i class="icon-area"></i> 1,300 Sq Ft</li>
+										<li><i class="icon-bedrooms"></i> 3</li>
+										<li><i class="icon-bathrooms"></i> 1.5</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="row">
+								<div class="item col-sm-4"><!-- Set width to 4 columns for grid view mode only -->
+									<div class="image">
+										<a href="203KingsDrive.html">
+											<h3>203 Kings Drive </h3>
+											<span class="location">Willard, Missouri 65781</span>
+										</a>
+										<img src="203KingsDriveWillard.jpg" alt="" />
+									</div>
+									<div class="price">
+										<i class="fa fa-home"></i>For Rent
+										<span>$800</span>
+									</div>
+									<ul class="amenities">
+										<li><i class="icon-area"></i> 1,800 Sq Ft</li>
+										<li><i class="icon-bedrooms"></i> 3</li>
+										<li><i class="icon-bathrooms"></i> 2</li>
+									</ul>
+								</div>
+								
+								<div class="item col-sm-4"><!-- Set width to 4 columns for grid view mode only -->
+									<div class="image">
+										<a href="402HowardStreet.html">
+											<h3>402 Howard Street</h3>
+											<span class="location">Willard, Missouri 65781</span>
+										</a>
+										<img src="402HowardStreetWillard.jpg" alt="" />
+									</div>
+									<div class="price">
+										<i class="fa fa-home"></i>For Rent
+										<span>$850</span>
+									</div>
+									<ul class="amenities">
+										<li><i class="icon-area"></i> 1,900 Sq Ft</li>
+										<li><i class="icon-bedrooms"></i> 4</li>
+										<li><i class="icon-bathrooms"></i> 3</li>
+									</ul>
+								</div>
+								
+								<div class="item col-sm-4"><!-- Set width to 4 columns for grid view mode only -->
+									<div class="image">
+										<a href="202SouthStreet.html">
+											<h3>202 South Street </h3>
+											<span class="location">Willard, Missouri 65781</span>
+										</a>
+										<img src="202SouthStreet.jpg" alt="" />
+									</div>
+									<div class="price">
+										<i class="fa fa-home"></i>For Rent
+										<span>$650</span>
+									</div>
+									<ul class="amenities">
+										<li><i class="icon-area"></i> 1,100 Sq Ft</li>
+										<li><i class="icon-bedrooms"></i> 3</li>
+										<li><i class="icon-bathrooms"></i> 2</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						
+						<!-- END PROPERTY LISTING -->
+						
+						
+						<!-- BEGIN PAGINATION -->
+						<div class="pagination">
+							<ul id="previous">
+								<li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+							</ul>
+							<ul>
+								<li class="active"><a href="PropertyListings.html">1</a></li>
+								<li class="active"><a href="PropertyListings2.html">2</a></li>
+							</ul>
+							<ul id="next">
+								<li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+							</ul>
+						</div>
+						<!-- END PAGINATION -->
+						
+					</div>	
+					<!-- END MAIN CONTENT -->
+
+				</div>
+			</div>
+		</div>
+		<!-- END CONTENT WRAPPER -->
+		
+		
+		<!-- BEGIN FOOTER -->
+		<footer id="footer">
+			<div id="footer-top" class="container">
+				<div class="row">
+					<div class="block col-sm-3">
+						<a href="WMPLLCHome.html"><img src="WPICON.png" width="140" alt="WMP Icon" /></a>
+						<br><br>
+						<p>Willard Missouri Properties LLC is here to help you find a great community to be apart of. Check our website for current open rental listings.</p>
+					</div>
+					<div class="block col-sm-4">
+						<h3>Contact Info</h3>
+						<ul class="footer-contacts">
+							<li><i class="fa fa-map-marker"></i> Willard, Missouri</li>
+							<li><i class="fa fa-phone"></i> 417 880 7096</li>
+							<li><i class="fa fa-envelope"></i> <a href="mailto:WillardMoPropertiesLLC@gmail.com">WillardMoPropertiesLLC@gmail.com</a></li>
+						</ul>
+					</div>
+					<div class="block col-sm-3">
+						<h3>Helpful Links</h3>
+						<ul class="footer-links">
+							<li><a href="contact.html">Maintenance Request</a></li>
+							<li><a href="PropertyListings.html">Properties</a></li>
+							<li><a href="faq.html">FAQS</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!-- BEGIN COPYRIGHT -->
+			<div id="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							&copy; 2017-2018 Willard Missouri Properties LLC. All rights reserved.
+							
+							<!-- BEGIN SOCIAL NETWORKS -->
+							<ul class="social-networks">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="mailto:WillardMoPropertiesLLC@gmail.com"><i class="fa fa-google"></i></a></li>
+							</ul>
+							<!-- END SOCIAL NETWORKS -->
+						
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END COPYRIGHT -->
+			
+		</footer>
+		<!-- END FOOTER -->
+	
+	</div>
+	<!-- END WRAPPER -->
+	
+	
+	<!-- Libs -->
+	<script src="WMP HTML5 Template/js/common.js"></script>
+	<script src="WMP HTML5 Template/js/chosen.jquery.min.js"></script>
+	
+	<!-- Template Scripts -->
+	<script src="WMP HTML5 Template/js/variables.js"></script>
+	<script src="WMP HTML5 Template/js/scripts.js"></script>
+	
+</body>
+</html>
