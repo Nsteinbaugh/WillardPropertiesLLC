@@ -25,7 +25,7 @@ namespace WillardPropertiesLLC.Controllers
             return View();
         }
 
-        public IActionResult Properties()
+        public IActionResult PropertyListings()
         {
             return View();
         }
