@@ -44,5 +44,15 @@ namespace WillardPropertiesLLC.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult Property(int iD)
+        {
+            PropertyViewModel model = new PropertyViewModel();
+
+
+
+
+            return View(model);
+        }
     }
 }
